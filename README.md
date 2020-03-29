@@ -125,6 +125,7 @@ to contain the HAI data (and other study information) in 'immport', the CSV
 files after converting the gene expression data ('data'), and the example
 figures in ('results'). So:
 **Initial Base Directory** | **Script in Base** | **Final Base Directory**
+---------------------------|--------------------|--------------------------
 immport-tool | download_immport.py | immport-tool
  | | immport (created)
 geo | geo_csv_converter.py | geo
