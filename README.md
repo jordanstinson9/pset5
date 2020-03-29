@@ -127,11 +127,11 @@ figures in ('results'). So:
 **Initial Base Directory** | **Script in Base** | **Final Base Directory**
 ---------------------------|--------------------|--------------------------
 immport-tool | download_immport.py | immport-tool
- | | immport (created)
+.|.| immport (created)
 geo | geo_csv_converter.py | geo
- | | data (created)
- | plot_multipatientexample.py | results (created)
- | plot_temporalfoldchange_example.py | results (updated)
+.|.| data (created)
+.| plot_multipatientexample.py | results (created)
+.| plot_temporalfoldchange_example.py | results (updated)
 
 ## INSTALLATION AND EXECUTION
 To download data from NIAID ImmPort, ensure that the immport-data-download-tool
